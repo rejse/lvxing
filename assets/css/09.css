@@ -711,7 +711,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-s8S9T1Yc1d {
-  background-image: <img src="https://rejse.github.io/lvxing/assets/images/bg.jpg" title="" alt="">;
+  background-image: url("../../../https://rejse.github.io/lvxing/assets/images/bg.jpg");;
 }
 .cid-s8S9T1Yc1d .mbr-text,
 .cid-s8S9T1Yc1d .typed-text,
