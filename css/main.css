@@ -22,10 +22,10 @@ tbody, tfoot, thead, tr, th, td {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-body {
-  background:#000;
-  -webkit-tap-highlight-color:rgba(0,0,0,0);
-  line-height: 1; }
+body { /* 背景图片 */
+background-image:url('https://rejse.github.io/MiBand/assets/tp/rejse.jpg');
+background-color:#cccccc;
+}
 
 ol, ul {
   list-style: none; }
