@@ -460,10 +460,10 @@ hr {
   background-image: -webkit-linear-gradient(-410deg, rgba(174, 80, 4, 0.6) 20%, rgba(74, 34, 2, 0.8));
   background-image: linear-gradient(140deg,rgba(174, 80, 4, 0.6) 20%, rgba(74, 34, 2, 0.8)); }
 
-.cover-slate {
-  background-color: rgba(60, 91, 147, 0.6);
+.cover-slate {/* 背景透明度 */
+  background-color: rgba(60, 91, 147, 0);
   background-image: -webkit-linear-gradient(-410deg, rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8));
-  background-image: linear-gradient(140deg,rgba(61, 66, 96, 0.6) 20%, rgba(21, 23, 34, 0.8)); }
+  background-image: linear-gradient(140deg,rgba(61, 66, 96, 0) 20%, rgba(21, 23, 34, 0)); }
 
 .cover-disabled {
   background: none; }
@@ -529,8 +529,8 @@ hr {
   left: 0;
   width: 100%;
   height: 35px;
-  background: rgba(0, 0, 0, 0);/* 上面按钮颜色 */
-  border-bottom: 1px solid rgba(144, 144, 144, 33);/* 上面线条颜色 */
+  background: rgba(190, 198, 200, 1);/* 上面按钮颜色 */
+  border-bottom: 1px solid rgba(212, 229, 219, 1);/* 上面线条颜色 */
   text-align: center; }
 
 .btn-mobile-menu__icon,
