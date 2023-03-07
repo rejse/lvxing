@@ -34,7 +34,7 @@ background-attachment: fixed;
 /* 让背景图基于容器大小伸缩 */
 background-size: cover;
 /* 设置背景颜色，背景图加载过程中会显示背景色 */
-background-color: rgba(255,255,255,0.0);
+background-color: transparent;
 }
 
 ol, ul {
