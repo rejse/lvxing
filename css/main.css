@@ -23,32 +23,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 12px;
-}
-a{
-	text-decoration: none;
-}
-html{
-	width: 100%;
-	height: 100%;
-	overflow-x:hidden; 
-	overflow-y:auto;
-}
-body{
-	width: 100%;
-	min-height: 100%;
-}
-.login-bg{
-	 background:url(https://s1.ax1x.com/2023/03/07/ppemtyT.jpg) no-repeat center;
+body {
+    /* 加载背景图 */
+    background-image: url(https://s1.ax1x.com/2023/03/12/ppKqQ39.png);
+    /* 背景图垂直、水平均居中 */
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
     background-size: cover;
-    overflow: hidden;
+    /* 设置背景颜色，背景图加载过程中会显示背景色 */
+    background-color: #464646;
 }
-
-
 
 
 ol, ul {
