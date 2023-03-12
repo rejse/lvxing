@@ -272,7 +272,7 @@ table thead tbody {
 .logo {
   border-radius: 50%;
   border: 3px solid #ffffff00;                 /* 圆圈初始颜色#FFF */
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0); /* 圆圈阴影rgba(0, 0, 0, 0.3) */
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);   /* 圆圈阴影rgba(0, 0, 0, 0.3) */
   transition:all .5s; }
 
 .logo:hover {
@@ -429,7 +429,7 @@ hr {
   color: #FFF;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
   .panel-inverted a {
-    color: #FFF; }
+    color: #FFF; } /* 旅行博客颜色 */
 
 .cover-navigation {
   margin-top: 42px; }
