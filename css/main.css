@@ -271,12 +271,12 @@ table thead tbody {
 .avatar,
 .logo {
   border-radius: 50%;
-  border: 3px solid #FFF;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  border: 3px solid #ffffff00;                 /* 圆圈初始颜色#FFF */
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0); /* 圆圈阴影rgba(0, 0, 0, 0.3) */
   transition:all .5s; }
 
 .logo:hover {
-  border: 3px solid #FF7F00;
+  border: 3px solid #ff7f0000;                 /* 圆圈初始颜色#FF7F00 */
 transition:all .5s;
 transform:rotate(360deg);
 -ms-transform:rotate(360deg); 	/* IE 9 */
@@ -641,7 +641,7 @@ i {
 
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
-    width: 70px; }
+    width: 160px; }
 
   .panel-title {
     font-size: 2em; }
